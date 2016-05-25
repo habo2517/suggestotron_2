@@ -2,8 +2,6 @@ Rails.application.routes.draw do
   resources :topics do
     member do
       post 'upvote'
-    end
-    member do
       post 'downvote'
     end
   end
